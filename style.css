@@ -7,6 +7,7 @@
 .scarpa{
     height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 #prodotto1{
     background-color: yellow;
@@ -21,7 +22,6 @@
 .contenitore div{
     font-size: 50px;
     text-align: center;
-    line-height: 100vh;
     text-transform: uppercase;
 }
 
@@ -46,4 +46,8 @@
     font-weight: bolder;
     text-decoration: none;
     font-family: fantasy;
+}
+
+.scarpa img{
+    height: 70%;
 }
